@@ -3,7 +3,7 @@
 <span class="left">
     &copy; 2012-<?php echo date('y') ?> Amici di Beppe Grillo Berlino
     |
-    eMail: <a href="mailto:adbgb@gmail.com">adbgb@gmail.com</a>
+    eMail: <a href="mailto:adbgb.berlino@gmail.com">adbgb.berlino@gmail.com</a>
 </span>
 
 <span class="right">
