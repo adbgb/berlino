@@ -1,0 +1,29 @@
+{
+    "name": "pippo/pippo",
+    "type": "library",
+    "description": "PHP Solr client",
+    "keywords": ["solr", "search", "php"],
+    "homepage": "http://www.solarium-project.org",
+    "license": "NewBSD",
+    "authors": [
+        {
+            "name": "See GitHub contributors",
+            "homepage": "https://github.com/basdenooijer/solarium/contributors"
+        }
+    ],
+    "config":{
+    "vendor-dir":"libraries"
+  	},
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/event-dispatcher": "2.*"
+    },
+    "autoload": {
+        "psr-0": { "Solarium": "libraries/" }
+    },
+    "extra": {
+        "branch-alias": {
+        "dev-feature-nextgen": "3.0-dev"
+        }
+    }
+}
